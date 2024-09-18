@@ -17,12 +17,12 @@ Main dependent packages：
 
 Other package details could be found in 'requirements.txt' in this project.
 
-# TCBC
+# Application
 You should prepared data first and modify the path root in 'unaligned_dataset.py'. 
 
-If you want to train the model by yourself, you need to run 'train.py'. 
+Then, you need to run 'train.py' to train the model. 
 
-If you want to corrected thin cloudy images, you need to run 'test.py' and provide both a trained model and the target cloudy images as input.
+Finally, you need to run 'test.py' to corrected thin cloudy images using both a trained model and the target cloudy images as input.
 
 
 We provide the dataset and corresponding trained correction model for testing, which is available in BaiduNetdisk. Link: https://pan.baidu.com/s/1EKyrVOwVrRZTDcm-yBiWqg?pwd=tcbc key：tcbc 
