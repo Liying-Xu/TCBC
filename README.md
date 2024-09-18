@@ -3,17 +3,17 @@ thin cloud blind correction method
 
 # Requisites
 Main dependent packages：
-python==3.6
-imageio==2.15.0
-libtiff==0.4.2
-matplotlib==3.3.4
-numpy==1.19.5
-opencv-python==4.5.4.58
-pandas==1.1.5
-Pillow==8.4.0
-tifffile~=2020.9.3
-torch~=1.10.0+cu111
-torchvision~=0.10.0+cu111
+- Python 3.6
+- imageio==2.15.0
+- libtiff==0.4.2
+- matplotlib==3.3.4
+- numpy==1.19.5
+- opencv-python==4.5.4.58
+- pandas==1.1.5
+- Pillow==8.4.0
+- tifffile~=2020.9.3
+- torch~=1.10.0+cu111
+- torchvision~=0.10.0+cu111
 
 Other package details could be found in requirements.txt in this project.
 
