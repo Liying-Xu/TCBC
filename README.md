@@ -36,4 +36,4 @@ All images in UBCSet are top-of-atmosphere (TOA) reflectance data.
 - Thin cloudy set: The thin cloudy images acquired from real world.
 
 # Acknowledgments
-Our code is inspired by [CycleGAN and pix2pix in PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix),[SPAGAN](https://github.com/Penn000/SpA-GAN_for_cloud_removal),[YTMT](https://github.com/mingcv/YTMT-Strategy).
+Our code is inspired by [CycleGAN and pix2pix in PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), [SPAGAN](https://github.com/Penn000/SpA-GAN_for_cloud_removal), and [YTMT](https://github.com/mingcv/YTMT-Strategy).
