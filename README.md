@@ -25,9 +25,8 @@ If you want to train the model by yourself, you need to run 'train.py'.
 If you want to corrected thin cloudy images, you need to run 'test.py' and provide both a trained model and the target cloudy images as input.
 
 We provide the UBCSet and corresponding trained correction model for testing, which can be downloaded as follows.
-## UBCset
-All images in UBCSet are top-of-atmosphere (TOA) reflectance data.
 
+All images in UBCSet are top-of-atmosphere (TOA) reflectance data.
 - Cloud set: The cloud images synthesized from cirrus band images.
 - Ground set: The clear images acquired from real world.
 - Thin cloudy set: The thin cloudy images acquired from real world.
