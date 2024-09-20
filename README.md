@@ -1,5 +1,5 @@
 # TCBC
-thin cloud blind correction method
+Xu, L., Li, H., Shen, H., Zhang, C., and Zhang, L.: A Thin Cloud Blind Correction Method Coupling a Physical Model with Unsupervised Deep Learning for Remote Sensing Imagery, ISPRS Journal of Photogrammetry and Remote Sensing, 218, 246-259, 2024.
 
 # Requisites
 Main dependent packages：
