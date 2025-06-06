@@ -3,8 +3,8 @@ from unaligned_dataset import UnalignedDataset
 from option import TrainOptions
 import datetime
 import itertools
-from Network.SABSNet import SABSNet
-from Network.Discriminator import discriminator
+from FSNet import FSNet
+from Discriminator import discriminator
 import torch
 import torch.nn as nn
 
@@ -27,7 +27,7 @@ Udataset = torch.utils.data.DataLoader(
             shuffle=not opt.serial_batches,
             num_workers=int(opt.num_threads))  # create a dataset given opt.dataset_mode and other options
 
-G = SABSNet()
+G = FSNet()
 G.cuda()
 
 D = discriminator(d=32, in_channels=10)
